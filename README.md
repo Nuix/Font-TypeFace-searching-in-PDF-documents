@@ -16,10 +16,14 @@ Extract fonts from PDF documents. Useful for investigations involving extracting
 
 There are two options for this script.
 
-A worker side script:
+### A worker side script:
+
+Recommended option! Using workers will drastically speed up the extraction process.
+
 Copy the contacts of the wss.rb into your worker side scripts tab when configuring your processing options
 
-A post processing script:
+
+### A post processing script:
 Copy the script to your scripts directory and run through the script menu
 - `%appdata%\Nuix\Scripts` - User level script directory
 - `%programdata%\Nuix\Scripts` - System level script directory
